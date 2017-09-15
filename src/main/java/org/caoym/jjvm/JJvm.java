@@ -8,6 +8,7 @@ import java.util.Arrays;
  */
 public class JJvm {
     static public void main(String[] args){
+    	args = new String[]{"org.caoym.jjvm.HelloWorld"};
         if(args.length == 0){
             System.out.println("usage: JJvm class [args...]");
             return;

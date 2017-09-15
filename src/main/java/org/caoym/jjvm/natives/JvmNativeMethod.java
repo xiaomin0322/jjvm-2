@@ -1,11 +1,10 @@
 package org.caoym.jjvm.natives;
 
-import com.sun.tools.classfile.AccessFlags;
+import java.lang.reflect.Method;
+
 import org.caoym.jjvm.Env;
 import org.caoym.jjvm.JvmMethod;
 import org.caoym.jjvm.StackFrame;
-
-import java.lang.reflect.Method;
 
 /**
  * Created by caoyangmin on 2017/9/7.
